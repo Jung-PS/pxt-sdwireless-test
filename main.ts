@@ -219,8 +219,7 @@ namespace sdwireless {
     //% blockId=sdw_tx_n block="Send message %data (New Line)"
     //% weight=90
     export function sdw_tx_n(data: string): void {
-        sdw_tx(data + "
-");
+        sdw_tx(data + "\n");
     }
 
     // event registration
